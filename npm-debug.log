@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'exptess' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'exptess', null ]
+7 verbose cache add name=undefined spec="exptess" args=["exptess",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'exptess',
+8 verbose parsed url   path: 'exptess',
+8 verbose parsed url   href: 'exptess' }
+9 silly lockFile 74480124-exptess exptess
+10 verbose lock exptess C:\Users\Mark\AppData\Roaming\npm-cache\74480124-exptess.lock
+11 silly lockFile 74480124-exptess exptess
+12 silly lockFile 74480124-exptess exptess
+13 verbose addNamed [ 'exptess', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 0351389b-exptess exptess@
+16 verbose lock exptess@ C:\Users\Mark\AppData\Roaming\npm-cache\0351389b-exptess.lock
+17 silly addNameRange { name: 'exptess', range: '*', hasData: false }
+18 verbose request where is /exptess
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 37d2ebade4a6b8cf
+21 verbose url raw /exptess
+22 verbose url resolving [ 'https://registry.npmjs.org/', './exptess' ]
+23 verbose url resolved https://registry.npmjs.org/exptess
+24 verbose request where is https://registry.npmjs.org/exptess
+25 info trying registry request attempt 1 at 08:21:53
+26 http GET https://registry.npmjs.org/exptess
+27 http 404 https://registry.npmjs.org/exptess
+28 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '51',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   date: 'Thu, 11 Jun 2015 00:18:50 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-sjc3134-SJC',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1433981930.319204,VS0,VE353' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '51',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Thu, 11 Jun 2015 00:18:50 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1433981930.319204,VS0,VE353' } ]
+30 silly lockFile 0351389b-exptess exptess@
+31 silly lockFile 0351389b-exptess exptess@
+32 error 404 404 Not Found: exptess
+32 error 404
+32 error 404 'exptess' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'hello-world'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Windows_NT 6.1.7601
+34 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "exptess"
+35 error cwd D:\GitHub\Trad212Remind
+36 error node -v v0.10.33
+37 error npm -v 1.4.28
+38 error code E404
+39 verbose exit [ 1, true ]
